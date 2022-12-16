@@ -13,8 +13,24 @@
     padding: 0;
 }
 
+body
+{
+    background-color:var(--custom-color-balck);
+}
+
+p
+{
+    color:var(--custom-color-white);
+}
+
+.card
+{
+    background-color:var(--custom-color-third);    
+}
+
 .button
 {
+    background-color:var(--custom-color-secondary);  
     border-radius: 12px;
 }
 
@@ -46,6 +62,16 @@
 
 .card-img-bottom
 {
-    height: 150px;
-    width: auto;
+    height: 100px;
+    width: auto;    
+}
+
+.text
+{
+    color:var(--custom-color-secondary) !important;
+}
+
+a
+{
+    color: var(--custom-color-balck);
 }
