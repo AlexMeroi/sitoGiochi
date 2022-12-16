@@ -1,0 +1,51 @@
+:root
+{
+    --custom-color-primary: #67F568;
+    --custom-color-secondary: #FF0000;
+    --custom-color-third: #5357F5;
+    --custom-color-balck: #000000;
+    --custom-color-white: #FFFFFF;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.button
+{
+    border-radius: 12px;
+}
+
+#logo
+{
+    background-image: url("logo.png");
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.background
+{
+    width: 100%;
+    height: auto;
+}
+
+.game
+{
+    width: 30%;
+}
+
+.text
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-img-bottom
+{
+    height: 150px;
+    width: auto;
+}
